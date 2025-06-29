@@ -14,7 +14,7 @@
 
 * 🎓 Fully built with HTML, CSS, and JavaScript
 
-#### 🚀 Demo  🔗 Coming soon (optional: add GitHub Pages link if you publish)
+#### 🚀 Demo [Meows & Moos](https://linnetdev.github.io/animal-soundboard-Meows-Moos/)
 
 #### 📁 Technologies Used
 
