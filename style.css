@@ -1,0 +1,191 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #fef9f3;  
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    color: rgb(47, 99, 47);
+}
+
+.action{
+    margin: 10px auto;      
+    padding: 20px;            
+}
+
+.game { 
+    width: 100vw;           
+    overflow: hidden;       
+}
+
+.game img {
+
+    width: 100%;            
+    height: auto;           
+    display: block;         
+    border:none;           
+    box-shadow: none;      
+}
+
+footer {
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.a {
+    background-image: url("./images/alligator.jpg");
+    color:rgb(239, 116, 239);
+}
+
+.b {
+    background-image: url("./images/bird.jpg");
+    color: rgb(227, 85, 163);
+}
+
+.c{
+    background-image: url("./images/cat.jpg");
+    color: rgb(242, 74, 74);
+}
+.d{
+    background-image: url("./images/dog.jpg");
+    color: orangered;
+}
+.e {
+    background-image: url("./images/elephant.jpg");
+    color: rgb(246, 182, 6);
+}
+.f{
+    background-image: url("./images/frog.jpg");
+    color: rgb(92, 176, 246);
+}
+.g{
+    background-image: url("./images/giraffe.jpg");
+    color: rgb(72, 198, 72); 
+}
+.h {
+    background-image: url("./images/horse.jpg");
+    color: rgb(108, 108, 244);
+}
+.i {
+    background-image: url("./images/ibis.png");
+    color: rgb(239, 116, 239);
+}
+.j {
+    background-image: url("./images/jaguar.jpg");
+    color:rgb(227, 85, 163);
+}
+.k{
+    background-image: url("./images/kiwi.jpg");
+    color:rgb(242, 74, 74);
+}
+.l{
+    background-image: url("./images/lion.jpg");
+    color: rgb(239, 116, 239);
+}
+.m {
+    background-image: url("./images/monkey.jpg");
+    color: orangered;
+}
+.n {
+    background-image: url("./images/nightingale.jpg");
+    color: rgb(246, 182, 6);
+}
+.o{
+    background-image: url("./images/owl.jpg");
+    color: rgb(92, 176, 246);
+}
+.p{
+    background-image: url("./images/pig.jpg");
+    color: rgb(72, 198, 72);
+}
+.q {
+    background-image: url("./images/quail.jpg");
+    color: rgb(108, 108, 244);
+}
+.r {
+    background-image: url("./images/rhinoceros.jpg");
+    color: rgb(239, 116, 239);
+}
+.s {
+    background-image: url("./images/squirrel.jpg");
+    color: rgb(227, 85, 163);
+}
+.t {
+    background-image: url("./images/tiger.jpg");
+    color: rgb(242, 74, 74);  
+}
+.u {
+    background-image: url("./images/urchin.jpg");
+    color: orangered;  
+}
+.v {
+    background-image: url("./images/vulture.jpg");
+    color: rgb(246, 182, 6); 
+}
+.w {
+    background-image: url("./images/wolf.jpg");
+    color: rgb(92, 176, 246);
+}
+.x {
+    background-image: url("./images/xantus.jpg");
+    color: rgb(108, 108, 244);
+}
+.y {
+    background-image: url("./images/yak.jpg");
+    color: rgb(72, 198, 72);
+}
+.z {
+    background-image: url("./images/zebra.jpg");
+    color: rgb(239, 116, 239);
+}
+
+.letter {
+  position: relative;  
+  overflow: hidden;    
+  display: inline-block; 
+  width: 140px;
+  height: 140px;
+  border-radius: 18px;
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;  
+  font-family: 'Fredoka', sans-serif;
+  cursor: pointer;   
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.letter-label {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  font-size: 3rem;
+  font-weight: 600;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+}
+.letter:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+
+.letter:active {
+  transform: scale(0.97);
+  box-shadow: inset 2px 2px 6px #ccc, inset -2px -2px 6px #fff;
+  background-color: #fce6ee;
+}
+
+.set {
+  margin: 20px auto;
+}
+
+.letter.active {
+  box-shadow: 0 0 12px 6px rgba(255, 255, 255, 0.8);
+  transform: scale(1.08);
+  transition: transform 0.1s, box-shadow 0.1s;
+}
